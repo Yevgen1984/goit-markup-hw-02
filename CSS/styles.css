@@ -1,73 +1,91 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+    --section-background-color: #F5F4FA;
+    --footer-link-color: #ffffff60;
+    --contact-text-color: #757575;
+    --studio-text-color: #000000;
+}
+
 body {
-    background-color: #FFFFFF;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
 }
 
 /*nav*/
 
 .nav .nav-web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .nav .nav-studio {
-    color: #000000;
+    color: var(--studio-text-color);
 }
 
+.menu .link-studio,
 .menu .link-portfolio,
-.link-contacts {
-    color: #212121;
-}
-.menu .link-studio {
-    color: #212121;
+.menu .link-contacts {
+    color: var(--primary-text-color);
 }
 
-.menu .link-studio:hover,
-.menu .link-studio:focus {
-    color: #2196F3;
+.menu .link:hover,
+.menu .link:focus {
+    color: var(--accent-color);
 }
 /*contacks*/
 .contacts a {
-    color: #757575;
+    color: var(--contact-text-color);
 }
-.contacts .link-mail:hover,
-.contacts .link-mail:focus {
-    color: #2196F3;
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
 }
-    /*section*/
+    /*hero*/
 
-.section {
-    background-color: #2F303A;
+.hero {
+    background-color: var(--secondary-background-color); 
+    }
+
+.hero > .hero-title {
+    color: var(--secondary-text-color);
 }
 
-.section > .section-title {
-    color: #FFFFFF;
-}
-
-/*third-section*/
+/*section-team*/
 
 .section-team {
-    background-color: #F5F4FA;
-    color: #212121;
+    background-color: var(--section-background-color);
+    color: var(--primary-text-color);
 }
 
 /*footer*/
 
 .footer {
-    background-color: #2F303A;
-    color: #FFFFFF;
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
 }
 
 .footer .footer-web {
-color: #2196F3;
+color: var(--accent-color);
 }
 
 .footer .footer-studio {
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
 }
 
 .footer a {
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
 }
 
 .footer .link {
-    color:#ffffff60
+    color: var(--footer-link-color);
 } 
+
+/*button*/
+
+.button {
+    color: var(--section-background-color);
+    background-color: var(--accent-color);
+}
