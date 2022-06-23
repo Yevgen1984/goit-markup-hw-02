@@ -1,0 +1,73 @@
+body {
+    background-color: #FFFFFF;
+}
+
+/*nav*/
+
+.nav .nav-web {
+    color: #2196F3;
+}
+
+.nav .nav-studio {
+    color: #000000;
+}
+
+.menu .link-portfolio,
+.link-contacts {
+    color: #212121;
+}
+.menu .link-studio {
+    color: #212121;
+}
+
+.menu .link-studio:hover,
+.menu .link-studio:focus {
+    color: #2196F3;
+}
+/*contacks*/
+.contacts a {
+    color: #757575;
+}
+.contacts .link-mail:hover,
+.contacts .link-mail:focus {
+    color: #2196F3;
+}
+    /*section*/
+
+.section {
+    background-color: #2F303A;
+}
+
+.section > .section-title {
+    color: #FFFFFF;
+}
+
+/*third-section*/
+
+.section-team {
+    background-color: #F5F4FA;
+    color: #212121;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.footer .footer-web {
+color: #2196F3;
+}
+
+.footer .footer-studio {
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.footer .link {
+    color:#ffffff60
+} 
