@@ -51,11 +51,24 @@ body {
     color: var(--secondary-text-color);
 }
 
-/*section-team*/
+.hero-title {
+    text-align: center;
+}
+/*work*/
 
-.section-team {
+.work-title {
+    text-align: center;
+}
+
+/*team*/
+
+.team {
     background-color: var(--section-background-color);
     color: var(--primary-text-color);
+}
+
+.team-title {
+    text-align: center;
 }
 
 /*footer*/
