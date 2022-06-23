@@ -25,9 +25,7 @@ body {
     color: var(--studio-text-color);
 }
 
-.menu .link-studio,
-.menu .link-portfolio,
-.menu .link-contacts {
+.menu .link{
     color: var(--primary-text-color);
 }
 
