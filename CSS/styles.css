@@ -54,6 +54,28 @@ body {
 .hero-title {
     text-align: center;
 }
+
+section.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;}
+
+    h1.hero-title {
+        width: 696px;
+        height: 120px;
+        font-weight: 900;
+        font-size: 44px;}
+
+        button.button {
+            border: none;
+            width: 200px;
+            height: 50px;
+            border-radius: 4px;
+            padding: 10px 32px 10px 32px;
+            font-size: 16px;}
+
 /*work*/
 
 .work-title {
