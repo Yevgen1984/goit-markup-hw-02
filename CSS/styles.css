@@ -10,7 +10,8 @@
     --studio-text-color: #000000;
 }
 
-li {list-style:
+li {
+    list-style:
     none;
 }
 
@@ -79,7 +80,9 @@ section.hero {
             height: 50px;
             border-radius: 4px;
             padding: 10px 32px 10px 32px;
-            font-size: 16px;}
+            font-size: 16px;
+            font-weight: 700;
+        }
 
 /*work*/
 
