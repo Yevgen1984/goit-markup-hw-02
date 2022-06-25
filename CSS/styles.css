@@ -15,24 +15,39 @@ li {
     none;
 }
 
-
 body {
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em
 }
 
 /*nav*/
 
-.nav .nav-web {
+.menu .link, .contacts .link, .nav a {
+    text-decoration: none;
+}
+
+.nav-web {
     color: var(--accent-color);
 }
 
-.nav .nav-studio {
+.nav-studio {
     color: var(--studio-text-color);
+}    
+
+.nav-web .nav-studio {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
 }
 
-.menu .link{
+.menu .link, .contacts .link{
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
 }
 
 .menu .link:hover,
@@ -51,47 +66,78 @@ body {
 
 .hero {
     background-color: var(--secondary-background-color); 
-    }
+}
 
 .hero > .hero-title {
     color: var(--secondary-text-color);
 }
 
 .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    
     text-align: center;
+    width: 696px;
+    height: 120px;
 }
 
-section.hero {
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px;}
+    height: 600px;
+}
+    
+/*button*/
 
-    h1.hero-title {
-        width: 696px;
-        height: 120px;
-        font-weight: 900;
-        font-size: 44px;}
+.button {
+    color: var(--section-background-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,9;
 
-        button.button {
-            border: none;
-            width: 200px;
-            height: 50px;
-            border-radius: 4px;
-            padding: 10px 32px 10px 32px;
-            font-size: 16px;
-            font-weight: 700;
-        }
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 10px 32px 10px 32px;
+    font-size: 16px;
+    font-weight: 700; 
+}
+
+/*features*/
+
+.features h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
+}
+
+.features {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
 
 /*work*/
 
 .work-title {
     text-align: center;
-}
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+    }
+
 
 /*team*/
 
+.shape {
+    background-color: #F5F4FA;
+}
 .team {
     background-color: var(--section-background-color);
     color: var(--primary-text-color);
@@ -99,7 +145,15 @@ section.hero {
 
 .team-title {
     text-align: center;
-}
+    font-size: 36px;
+    line-height: 1,16;
+} 
+
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,19;
+    }
 
 /*footer*/
 
@@ -108,12 +162,27 @@ section.hero {
     color: var(--secondary-text-color);
 }
 
-.footer .footer-web {
-color: var(--accent-color);
+.address {
+    font-style: normal;
 }
 
-.footer .footer-studio {
+.footer a, .footer .link {
+    text-decoration: none;
+}
+
+.footer-web {
+    color: var(--accent-color);
+}
+
+.footer-studio {
     color: var(--secondary-text-color);
+}
+
+.footer-web .footer-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
 }
 
 .footer a {
@@ -124,9 +193,8 @@ color: var(--accent-color);
     color: var(--footer-link-color);
 } 
 
-/*button*/
-
-.button {
-    color: var(--section-background-color);
-    background-color: var(--accent-color);
+.footer .link, .address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
 }
