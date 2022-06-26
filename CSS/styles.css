@@ -36,8 +36,8 @@ body {
     color: var(--studio-text-color);
 }    
 
-.nav-web .nav-studio {
-    font-family: Raleway, sans-serif;
+.nav-web, .nav-studio {
+    font-family: "Raleway", "sans-serif";
     font-weight: 700;
     font-size: 26px;
     line-height: 1,2;
@@ -197,4 +197,32 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1,7;
+}
+
+
+
+
+.work,.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 386px;
+}
+
+
+.work-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+   
+}
+section.work > ul , .features > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 386px;
+    margin-top: 20px;
+    align-items: center;
 }
