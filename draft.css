@@ -1,0 +1,26 @@
+.title {
+    font-family: 'Tangerine', cursive;
+}
+
+.test{
+
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    background-color: red;
+    flex-direction: column;
+}
+.one{
+    background-color: yellow;
+}
+.two{
+    background-color: rgb(255, 0, 187);
+}
+.three{
+    background-color: rgb(5, 0, 4);
+    color: wheat;
+}
+
+
+
