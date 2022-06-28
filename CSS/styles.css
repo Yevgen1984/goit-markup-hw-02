@@ -25,7 +25,6 @@ header {
 h1,
 h2,
 h3,
-h4,
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -260,20 +259,29 @@ ul.features-items {
     padding-right: 0;
     border: 5px solid #212121;          }
          
-.work-items, .work-item {
+.work-items {
     display: flex;    
-    /*justify-content: space-between;
-    align-items: center;*/
+    justify-content: space-between;
+    align-items: center;
 }
 
 .work-item {
     width: 370px;
-    margin-right: 30px;
-    }
-
-.work-item:last-child {
-    margin-right: 0px;
+    position: relative;
+    width: 370px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;    
+    justify-content: space-between;
+    
 }
+
+.work-item > img {
+    position: absolute;
+    width: 100%;
+}
+    
 
        /*team*/
 
@@ -295,8 +303,14 @@ ul.features-items {
 
 .team-members {
     display: flex;
-    align-items: center
-   }
+    justify-content: space-between;
+    align-items: center;
+     }
+
+h4, .position {
+    text-align: center;
+    line-height: ;
+}
 
 .position {
     font-weight: 400;
