@@ -1,0 +1,48 @@
+/*header*/
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu .item {
+    margin-right: 50px;
+}
+
+/*.menu .item:last-child {
+    margin-right: 0;
+}*/
+/*.menu .item:not(:last-child) {
+    margin-right: 50px;
+}*/
+
+.menu .item + .item {
+    margin-left: 50px;
+}
+
+
+.menu .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    }
+
+
+.contacts {
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts .item + .item {
+    margin-left: 50px;
+}
+
+
+
+    .menu .link:hover,
+    .menu .link:focus {
+        color: var(--accent-color);}
