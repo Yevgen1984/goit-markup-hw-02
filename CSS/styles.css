@@ -293,7 +293,8 @@ ul.features-items {
     justify-content: space-between;
     align-items: center;
     width: 1170px;
-}
+    padding-bottom: 94px;
+    }
 
 ul.team-members > li {
     background: white;
@@ -332,6 +333,12 @@ h4, .position {
     color: var(--secondary-text-color);
 }
 
+.footer-container {
+    background-color: var(--secondary-background-color);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .address {
     font-style: normal;
 }
@@ -367,6 +374,11 @@ h4, .position {
     font-weight: 400;
     font-size: 14px;
     line-height: 1,7;
+}
+
+.footer-webstudio, .footer-links {
+    padding-left: 215px;
+
 }
 
 
