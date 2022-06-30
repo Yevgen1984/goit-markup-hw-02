@@ -81,8 +81,8 @@
     margin-right: 0px;
 }*/
 .project-item {
-    /*flex-basis: calc((100% - 60px) / 3);*/
-    width: 370px;
+    flex-basis: calc((100% - 60px) / 3);
+    /*width: 370px;*/
     margin-bottom: 30px;
     margin-right: 30px;
     }
@@ -93,6 +93,12 @@
 
 .project-item:nth-child(3n) {
     margin-right: 0px;
+}
+
+/*footer*/
+
+.footer-items {
+    margin-left: 215px;
 }
 
     
