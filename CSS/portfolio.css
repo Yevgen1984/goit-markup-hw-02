@@ -78,11 +78,7 @@
             line-height: 1,14;
 }
 
-         
-/*color*/
-/*text*/
-
-/*main*/
+ /*main*/
 
 /*filters*/
 .filter-items {
@@ -196,9 +192,43 @@
     margin-left: 215px;
 }
 
+.item-webstudio {
+    margin-bottom: 20px;
+}
 .footer {
     background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
     margin-top: 94px;
 }
-    
+.footer-web {
+    color: var(--accent-color);
+}
 
+.footer-studio {
+    color: var(--secondary-text-color);
+}
+
+.footer-web, .footer-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;}
+    
+.footer .link {
+        color: var(--footer-link-color);
+    } 
+    
+    
+    .footer-items .link {
+        text-decoration: none;
+    }
+        
+    .footer-items .item, address{
+        
+        font-style: normal;
+        margin-bottom: 9px;
+    }
+
+
+    .footer-items .item :last-child {
+    margin-bottom: 0;}
