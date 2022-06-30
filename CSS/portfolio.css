@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid #212121;
+    /*border: 5px solid #212121;*/
    }
 
 
@@ -91,7 +91,7 @@
     margin-top: 104px;
     margin-bottom: 34px;
     padding-inline-start: 0;
-    border: 2px solid var(--accent-color)
+    /*border: 2px solid var(--accent-color);*/
     }
 
 .filter-item:not(:last-child) {
@@ -103,30 +103,34 @@
     height: 38px;
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
-}
+    border: none;
+    }
 
 .button-b {
     width: 128px;
     height: 38px;
     background-color: var(--section-background-color);
+    border: none;
 }
 
 .button-c {
     width: 145px;
     height: 38px;
     background-color: var(--section-background-color);
-}
+    border: none;}
 
 .button-d {
     width: 103px;
     height: 38px;
     background-color: var(--section-background-color);
+    border: none;
 }
 
 .button-e {
     width: 130px;
     height: 38px;
     background-color: var(--section-background-color);
+    border: none;
 }
 
 .button-a:hover, .button-a:focus,
