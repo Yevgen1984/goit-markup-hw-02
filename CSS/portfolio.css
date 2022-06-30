@@ -1,10 +1,26 @@
 /*header*/
 
+/*.nav-web, .nav-studio {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    }*/
 
-.nav {
+    
+
+
+.nav a{
+        text-decoration: none;
+    }
+ 
+.nav{
     display: flex;
+    justify-content: center;
     align-items: center;
-}
+    border: 5px solid #212121;
+   }
+
 
 .menu {
     display: flex;
@@ -21,7 +37,7 @@
     padding-bottom: 32px;
     }
 
-
+      
 .contacts {
     display: flex;
     margin-left: auto;
@@ -38,8 +54,31 @@
 
 .menu .link:hover,
 .menu .link:focus {
-        color: var(--accent-color);}
+        color: var(--accent-color);
+    }
 
+.nav-web, .nav-studio {
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1,2;
+            }
+.nav-web {
+    color: var(--accent-color);
+}
+
+.nav-studio {
+        color: var(--studio-text-color);
+}
+
+.menu .link, .contacts .link {
+    color: var(--primary-text-color);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1,14;
+}
+
+         
 /*color*/
 /*text*/
 
@@ -48,15 +87,71 @@
 /*filters*/
 .filter-items {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    width: 619px;
+    height: 54px;
     margin-left: 495px;
     margin-right: 494px;
+    margin-top: 104px;
+    margin-bottom: 34px;
+    padding-inline-start: 0;
     border: 2px solid var(--accent-color)
     }
 
 .filter-item:not(:last-child) {
-    margin: 8px;
+    margin-right: 8px;
 }
+
+.button-a {
+    width: 73px;
+    height: 38px;
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+
+.button-b {
+    width: 128px;
+    height: 38px;
+    background-color: var(--section-background-color);
+}
+
+.button-c {
+    width: 145px;
+    height: 38px;
+    background-color: var(--section-background-color);
+}
+
+.button-d {
+    width: 103px;
+    height: 38px;
+    background-color: var(--section-background-color);
+}
+
+.button-e {
+    width: 130px;
+    height: 38px;
+    background-color: var(--section-background-color);
+}
+
+.button-a:hover, .button-a:focus,
+ .button-b:hover, .button-b:focus,
+  .button-c:hover, .button-c:focus, 
+  .button-d:hover, .button-d:focus,
+   .button-e:hover, .button-e:focus {
+    color: var(--accent-color);
+
+}
+.button-a:hover, .button-a:focus {
+    color: var(--secondary-text-color);
+}
+/*непонятно: рука нарисована но какого цвета ховер не понял поэтому указал белый*/
+/*.button {
+    color: var(--section-background-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+        line-height: 1,9;}*/
+
 
 /*projects*/
 
@@ -101,5 +196,9 @@
     margin-left: 215px;
 }
 
+.footer {
+    background-color: var(--secondary-background-color);
+    margin-top: 94px;
+}
     
 
