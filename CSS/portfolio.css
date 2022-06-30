@@ -1,6 +1,7 @@
 /*header*/
 
-.main-container {
+
+.nav {
     display: flex;
     align-items: center;
 }
@@ -9,23 +10,12 @@
     display: flex;
 }
 
-.menu .item {
-    margin-right: 50px;
-}
-
-/*.menu .item:last-child {
-    margin-right: 0;
-}*/
-/*.menu .item:not(:last-child) {
-    margin-right: 50px;
-}*/
-
 .menu .item + .item {
     margin-left: 50px;
 }
 
 
-.menu .link {
+.menu .item {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -35,14 +25,23 @@
 .contacts {
     display: flex;
     margin-left: auto;
+    margin-right: 215px;
 }
 
 .contacts .item + .item {
     margin-left: 50px;
 }
 
+.webstudio {
+    margin-left: 215px;
+}
 
-
-    .menu .link:hover,
-    .menu .link:focus {
+.menu .link:hover,
+.menu .link:focus {
         color: var(--accent-color);}
+
+/*color*/
+/*text*/
+
+/*main*/
+
