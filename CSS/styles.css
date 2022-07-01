@@ -72,8 +72,8 @@ body {
     color: var(--contact-text-color);
     }
 
-.linka:hover,
-.linkb:focus {
+.linka:hover, .linka:focus,
+.linkb:hover, .linkb:focus{
     color: var(--accent-color);
     
 }
