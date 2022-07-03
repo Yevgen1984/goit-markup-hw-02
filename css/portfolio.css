@@ -148,8 +148,8 @@
   .button-d:hover, .button-d:focus,
    .button-e:hover, .button-e:focus {
     color: var(--accent-color);
-
 }
+
 .button-a:hover, .button-a:focus {
     color: var(--secondary-text-color);
 }
@@ -191,6 +191,11 @@
 .project-item:nth-child(3n) {
     margin-right: 0px;
 }
+
+/*.project-items .link:hover,
+.project-items .link:focus {
+    color: var(--accent-color);
+}*/
 
 /*floor*/
 
