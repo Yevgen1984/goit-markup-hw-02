@@ -78,7 +78,8 @@ body {
 
 .button {
         background-color: var(--section-background-color);
-              }
+       cursor: pointer;       
+    }
 
 
 .button:hover, .button:focus {
