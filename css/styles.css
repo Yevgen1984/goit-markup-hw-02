@@ -57,9 +57,22 @@
     color: var(--accent-color);
     }
 
+    .site-nav .link.current {
+      color: var(--accent-color);
+    }
+
+    .site-nav .link.current:hover,
+    .site-nav .link.current:focus
+    {color:var(--primary-background-color);
+    background-color:var(--accent-color);}
+
+
     .auth-nav .link {
     color: var(--contact-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     }
     
     .auth-nav .link:hover, .auth-nav .link:focus {

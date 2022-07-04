@@ -50,8 +50,20 @@ body {
     color: var(--accent-color);
     }
 
-    .auth-nav .link {
+    .site-nav .link.current {
+        color:var(--accent-color)
+    }
+
+    .site-nav .link.current:hover,
+    .site-nav .link.current:focus
+    {color:var(--primary-background-color);
+    background-color:var(--accent-color);}
+
+    .link.mail, .link.tel {
     color: var(--contact-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     text-decoration: none;
     }
     
@@ -74,8 +86,8 @@ body {
 
 .button.one {
     
-    color: var(--secondary-text-color);
-    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+    /*background-color: var(--accent-color);*/
     }
 
 .button {
@@ -90,11 +102,14 @@ body {
 
 
 .button:hover, .button:focus {
-    color: var(--accent-color);
+    /*color: var(--accent-color);*/
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
     }
 
 .button.one:hover, .button.one:focus {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
     }
 
    /*projects*/
