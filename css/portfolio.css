@@ -31,23 +31,18 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     }
     
     .logo {
     text-decoration: none;
     } 
 
-    .nav-studio:hover, .nav-studio:focus  {
-    color: var(--accent-color);
-    }
-   
-    
-   .nav .link {
+    .nav .link {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     text-decoration: none;
     }
 
@@ -66,19 +61,31 @@ body {
 
  /*main*/
 
-/*filters*/
+.visually-hidden {position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow:hidden}
 
-
-.button.first {
+.button.one {
     
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
-    
     }
 
 .button {
         background-color: var(--section-background-color);
-       cursor: pointer;       
+       cursor: pointer;
+       border: none;
+       font-style: 500;
+       font-size: 16px;
+       line-height: 1.6;
+       text-align: center;     
     }
 
 
@@ -86,32 +93,27 @@ body {
     color: var(--accent-color);
     }
 
-.button.first:hover, .button.first:focus {
+.button.one:hover, .button.one:focus {
     color: var(--primary-text-color);
     }
 
-/*projects*/
+   /*projects*/
 
 .project-item .link{
     text-decoration: none;
     }
 
-.part {
+.card-text {
     color: var(--contact-text-color);
+    font-size: 16px;
+    line-height: 1.87;
 }
 
-h2 {
+.card-title {
     font-style: 700;
     font-size: 18px;
     line-height: 2;
     color: var(--primary-text-color);
-}
-
-.part {
-    
-font-style: 400;
-font-size: 16px;
-line-height: 1,87;
 }
 
 /*footer*/
@@ -134,7 +136,7 @@ line-height: 1,87;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     }
 
     .site-basement .mail, .site-basement .tel {
@@ -143,7 +145,7 @@ line-height: 1,87;
 
     .site-basement .link {
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     }
 
     .site-basement .mail,
@@ -152,9 +154,7 @@ line-height: 1,87;
     }
 
     .site-basement .link:hover,
-    .site-basement .link:focus,
-    .site-basement .studio:hover,
-    .site-basement .studio:focus {
+    .site-basement .link:focus {
     color: var(--accent-color);
     }
 
